@@ -164,11 +164,11 @@
     * For of loop
         * Much cleaner
         * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of>
-        * <need examples>
+        
 
     * For in loop
         * Usually used for iterating over props of an object.
-        * Only passes in th keys
+        * Only passes in the keys
         * To access value, need to combine passed in key with bracket operator
         * Does not iterate in order, so do not use on array
             * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in>

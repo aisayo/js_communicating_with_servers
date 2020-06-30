@@ -13,21 +13,22 @@ function fetchPeople(){
 }
 
 function peoplesList(list){
-    console.log(list)
-    
+    for (const person in list){
+        //console.log(list[person])
+        addPeople(list[person])
+    }
+
 }
 
 function addPeople(object){
-    // console.log(object)
-    // const ul = document.querySelector("ul")
-    // const li = document.createElement("li")
-
-    // ul.appendChild(li)
+    console.log(object)
+     const ul = document.querySelector("ul")
+     const li = document.createElement("li")
+     li.innerText = object.name
+    ul.appendChild(li)
 }
 
 fetchPeople();
-peoplesList();
-addPeople();
 
 //JSON 
 
@@ -35,4 +36,25 @@ addPeople();
     
 
 
+// For..of
 
+// const myArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
+ 
+// for (const element of myArray) {
+//   console.log(element);
+// }
+
+
+// For...in
+
+// const address = {
+//     street1: '11 Broadway',
+//     street2: '2nd Floor',
+//     city: 'New York',
+//     state: 'NY',
+//     zipCode: 10004
+//   };
+   
+//   for (const key in address) {
+//       console.log(address[key]);
+//   }
