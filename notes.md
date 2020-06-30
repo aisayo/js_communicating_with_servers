@@ -8,9 +8,9 @@
 
 ## AJAX
 
-`https://www.w3schools.com/xml/ajax_intro.asp`
-`https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX`
-`https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started`
+<https://www.w3schools.com/xml/ajax_intro.asp>
+<https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX>
+<https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started>
 
 * Stands for: Asynchronous JavaScript and XML
 * Make requests to the server without reloading web page
