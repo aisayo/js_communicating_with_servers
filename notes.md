@@ -140,3 +140,36 @@
     * For accessing elements in an array, always use integers
     * Be wary of setting object-style props on an array
     * All object keys, including array indexes are strings
+
+* Object iteration
+
+    * Looping vs Iteration
+        * Looping is the process of executing a set of statements repeatedly until a condition is met
+        * Great for when we want to do something a specific number of times 
+        * Iteration is the process of executing a set of statements once for each element in a collection
+
+    * For loop
+        * < need examples >
+
+    * While loop
+        * < need examples >
+
+    * For of loop
+        * Much cleaner
+        * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of>
+        * <need examples>
+
+    * For in loop
+        * Usually used for iterating over props of an object.
+        * Only passes in th keys
+        * To access value, need to combine passed in key with bracket operator
+        * Does not iterate in order, so do not use on array
+
+        
+Traversing Nested Objects
+Objects in objects
+Values in an object can be other objects
+
+
+* <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in>
+
