@@ -56,8 +56,18 @@
   * Need to return content that we have gotten out of response
   * Response can have some basic functions but most important ones are `.json()` & .`text()`
   * Usually one line: returning content from response
-  * Here is where you tell js to ask network response to be turned into JSON
+  * Here is where you tell JS to ask network response to be turned into JSON
 
 3. `.then(function(json){ }`
 
   * Use this data inside of json to do DOM manipulation
+
+## JSON
+
+* Javascript Object Notation
+* A string that JS knows how to turn into an object
+* A way to send a collection of data across the internet
+* Formats and organizes data
+* Allows for large and complicated amounts of data to be shared across platforms
+  * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON>
+  * <https://www.w3schools.com/whatis/whatis_json.asp>
