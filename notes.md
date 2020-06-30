@@ -71,3 +71,20 @@
 * Allows for large and complicated amounts of data to be shared across platforms
   * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON>
   * <https://www.w3schools.com/whatis/whatis_json.asp>
+
+### Objects
+
+* Great at modeling more complex structures
+* `key/value` based data structure
+* A way to store all information in a single data structure while maintaining a descriptive naming scheme
+  * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects>
+
+#### What is an object?
+
+* Collection of properties bound by curly braces
+* Can point to values of any data type, even other objects
+  * Empty objects `{}`
+  * Single key/value pair `{ key: value }`
+  * Multiple key/value pairs `{ key: value, key: value }`
+* Key’s inside objects are identifiers for the real data we want from an object
+  * Keys must be unique
