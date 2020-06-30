@@ -152,9 +152,16 @@
         `for (let i = 0; i < array.length; i++) {
             // Loop body
         }`
+        * Problem: using a looping construct to perform iteration.
 
     * While loop
-        * < need examples >
+        `let myArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
+
+        let j = 0;
+        
+        while (j < myArray.length) {
+            console.log(myArray[j++]);
+        }`
 
     * For of loop
         * Much cleaner
