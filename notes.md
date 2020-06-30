@@ -40,6 +40,8 @@
 * A function that retrieves data
 * Global method on window object
 * Can use in DevTools
+  * <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API>
+
 
 ### Fetching data with fetch() => Let’s break it down!
 
@@ -59,4 +61,3 @@
 3. `.then(function(json){ }`
 
   * Use this data inside of json to do DOM manipulation
-   * <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API>
