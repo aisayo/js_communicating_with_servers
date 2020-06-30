@@ -93,13 +93,13 @@
 
   1. Dot notation - go to strategy
 
-* To access a property with dot notation, the key must follow the same naming rules applied to variables and functions
-    * Camel case everything
-    * Start with a lowercase letter
-    * No spaces or punctuation
-* All key’s are strings
-* Will not evaluate variables
-* Should be used when you know exact name of property
+    * To access a property with dot notation, the key must follow the same naming rules applied to variables and functions
+        * Camel case everything
+        * Start with a lowercase letter
+        * No spaces or punctuation
+    * All key’s are strings
+    * Will not evaluate variables
+    * Should be used when you know exact name of property
 
   2. Bracket notation
     * Need to be strings
