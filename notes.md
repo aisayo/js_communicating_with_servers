@@ -91,7 +91,7 @@
 
 #### Accessing object values
 
-  1. Dot notation - go to strategy
+1. Dot notation - go to strategy
 
 * To access a property with dot notation, the key must follow the same naming rules applied to variables and functions
     * Camel case everything
@@ -101,10 +101,11 @@
 * Will not evaluate variables
 * Should be used when you know exact name of property
 
-  2. Bracket notation
-    * Need to be strings
-    * Can also use bracket notation to access properties dynamically
-    * Comes in handy when iterating over objects
+2. Bracket notation
+
+* Need to be strings
+* Can also use bracket notation to access properties dynamically
+* Comes in handy when iterating over objects
 
 * <https://codeburst.io/javascript-quickie-dot-notation-vs-bracket-notation-333641c0f781>
 * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors>
