@@ -133,3 +133,10 @@
 * Removing a property from an Object
     * `delete object.property`
     * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete>
+
+* Arrays
+    * Array’s are objects
+    * Can set, modify and access properties on an array just like objects
+    * For accessing elements in an array, always use integers
+    * Be wary of setting object-style props on an array
+    * All object keys, including array indexes are strings
