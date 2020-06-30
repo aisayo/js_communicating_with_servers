@@ -126,12 +126,10 @@
     * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>
     * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign>
 
+* Object.keys()
+    * Return value is an array containing all of the keys at the top level of the object
+    * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys>
 
-Object.keys() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
-
-Return value is an array containing all of the keys at the top level of the object
-
-
-Removing a property from an Object
-Delete object.property 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete
+* Removing a property from an Object
+    * `delete object.property`
+    * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete>
