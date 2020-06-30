@@ -91,7 +91,6 @@
 
 ##### Accessing object values
 
-* Two ways to do this:
   1. Dot notation - go to strategy
     * To access a property with dot notation, the key must follow the same naming rules applied to variables and functions
       * Camel case everything
