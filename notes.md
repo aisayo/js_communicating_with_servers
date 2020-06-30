@@ -21,7 +21,7 @@
   * <https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX>
   * <https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started>
 
-## AJAX Technologies
+### AJAX Technologies
 
 * Promise(s)
 * XMLHttpRequestObjects
@@ -47,15 +47,16 @@
 
   * Will return an object that represents what we got from the data source. Not the actual content
 
-3. `.then(function(response){ return response.json() })`
+2. `.then(function(response){ return response.json() })`
 
   * Taking in a function as an argument that receives the response as its argument
 
-Need to return content that we have gotten out of response
-Response can have some basic functions but most important ones are .json() & .text()
-Usually one line: returning content from response
-Here is where you tell js to ask network response to be turned into JSON
-.then(function(json){ }
-Use this data inside of json to do DOM manipulation
-Get some JSON passed in to do something with 
-  * <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API>
+  * Need to return content that we have gotten out of response
+  * Response can have some basic functions but most important ones are `.json()` & .`text()`
+  * Usually one line: returning content from response
+  * Here is where you tell js to ask network response to be turned into JSON
+
+3. `.then(function(json){ }`
+
+  * Use this data inside of json to do DOM manipulation
+   * <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API>
