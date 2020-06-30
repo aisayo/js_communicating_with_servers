@@ -124,7 +124,7 @@
     * Every additional argument is an object whose properties we want to merge into the first object
      Passing an empty object to Object.assign() as first argument will create an entirely new object instead of modifying or overwriting the properties of an existing object
     * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>
-    * < https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign>
+    * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign>
 
 
 Object.keys() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
