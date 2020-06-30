@@ -156,9 +156,7 @@
 
     * While loop
         `let myArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
-
         let j = 0;
-        
         while (j < myArray.length) {
             console.log(myArray[j++]);
         }`
