@@ -31,7 +31,7 @@
 
 * Modern browsers have abstracted all those components into a single function called `fetch()`
 
-## Fetch()
+### Fetch()
 
 * Very new to browsers
 * Older code uses jquery.ajax or $.ajax
@@ -62,7 +62,7 @@
 
   * Use this data inside of json to do DOM manipulation
 
-## JSON
+### JSON
 
 * Javascript Object Notation
 * A string that JS knows how to turn into an object
