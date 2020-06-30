@@ -107,5 +107,5 @@
 * Can also use bracket notation to access properties dynamically
 * Comes in handy when iterating over objects
 
-* <https://codeburst.io/javascript-quickie-dot-notation-vs-bracket-notation-333641c0f781>
-* <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors>
+  * <https://codeburst.io/javascript-quickie-dot-notation-vs-bracket-notation-333641c0f781>
+  * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors>
