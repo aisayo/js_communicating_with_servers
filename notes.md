@@ -109,3 +109,29 @@
 
   * <https://codeburst.io/javascript-quickie-dot-notation-vs-bracket-notation-333641c0f781>
   * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors>
+
+#### Modifying Objects
+
+* Key word: destructive = modifying original values
+* `Object.assign()` & `Object.keys()`
+* Can use spread operator but this involves more code to write
+* Data in a const pointing to array or object can still be changed but the value of the const can not be reassigned
+
+* `Object.assign()`
+    * Object is a global object that has a bunch of helpful methods we can use
+    * Allows us to combine properties from multiple objects into a single object
+    * First argument is initial object
+    * Every additional argument is an object whose properties we want to merge into the first object
+     Passing an empty object to Object.assign() as first argument will create an entirely new object instead of modifying or overwriting the properties of an existing object
+    * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>
+    * < https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign>
+
+
+Object.keys() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+
+Return value is an array containing all of the keys at the top level of the object
+
+
+Removing a property from an Object
+Delete object.property 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete
