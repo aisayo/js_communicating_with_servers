@@ -178,3 +178,11 @@
 * `Asynchronous` => All tasks seem to be advancing at the same time
 * Looks a lot like event handlers
 * Do this thing, go do whatever other thing until this thing is done then go back to it and do some work
+
+#### What’s an API?
+
+* Application programming interface
+* Data or functionality that is exposed to the public for use
+* We can use JavaScript to send a web request to an api and receive a collection of JSON in return
+* You can find documentation on an api page to help out and give a road map
+    * <https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82>
