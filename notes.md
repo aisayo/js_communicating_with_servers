@@ -170,3 +170,11 @@
 * Traversing Nested Objects
     * Objects in objects
     * Values in an object can be other objects
+
+#### Asynchrony
+
+* Allows browsers to execute multiple functionalities, efficiently,
+* `Synchronous` => one thing after the other
+* `Asynchronous` => All tasks seem to be advancing at the same time
+* Looks a lot like event handlers
+* Do this thing, go do whatever other thing until this thing is done then go back to it and do some work
