@@ -164,12 +164,9 @@
         * Only passes in th keys
         * To access value, need to combine passed in key with bracket operator
         * Does not iterate in order, so do not use on array
-
-        
-Traversing Nested Objects
-Objects in objects
-Values in an object can be other objects
+            * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in>
 
 
-* <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in>
-
+* Traversing Nested Objects
+    * Objects in objects
+    * Values in an object can be other objects
