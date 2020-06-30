@@ -122,7 +122,7 @@
     * Allows us to combine properties from multiple objects into a single object
     * First argument is initial object
     * Every additional argument is an object whose properties we want to merge into the first object
-     Passing an empty object to Object.assign() as first argument will create an entirely new object instead of modifying or overwriting the properties of an existing object
+    * Passing an empty object to Object.assign() as first argument will create an entirely new object instead of modifying or overwriting the properties of an existing object
     * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>
     * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign>
 
@@ -145,11 +145,13 @@
 
     * Looping vs Iteration
         * Looping is the process of executing a set of statements repeatedly until a condition is met
-        * Great for when we want to do something a specific number of times 
+        * Great for when we want to do something a specific number of times
         * Iteration is the process of executing a set of statements once for each element in a collection
 
     * For loop
-        * < need examples >
+        `for (let i = 0; i < array.length; i++) {
+            // Loop body
+        }`
 
     * While loop
         * < need examples >
